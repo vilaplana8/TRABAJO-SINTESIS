@@ -17,7 +17,6 @@ font-size: 18.5px;
   margin-bottom: 55em;
   margin-left: 10em;
   display: inline-block;
-
 }
 
 .tab button {
@@ -29,4 +28,41 @@ font-size: 18.5px;
   font-family: Arial;
   padding-left: 5em;
   padding-right: 5em;
+}
+
+
+.container{
+
+}
+
+
+#footer {
+  background-color: #1f2022;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 5em;
+  padding-right: 5em;
+  margin-top: 8em;
+}
+
+
+#footer h6 {
+  font-size: 1em;
+}
+
+#footer ul {
+  font-size: 0.8em;
+}
+
+
+.footer-column{
+ margin: 4em;
+margin-top: 6em;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  margin-top: 3em;
+  padding: 0;
 }
